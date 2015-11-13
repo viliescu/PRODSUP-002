@@ -1,4 +1,5 @@
-
+general:
+  build_dir: src
 dependencies:
   post:
     - org.apache.commons
