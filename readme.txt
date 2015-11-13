@@ -1,4 +1,8 @@
-. I have created a new repository PRODSUP-002 and I imported tgere Case2  https://github.com/nym2015/commons-csv  my public GitHub path is : https://github.com/viliescu/PRODSUP-002.git
+Github & circleci credentials : 
+victoriliescu77@gmail.com
+testare22
+
+ I have created a new repository PRODSUP-002 and I imported tgere Case2  https://github.com/nym2015/commons-csv  my public GitHub path is : https://github.com/viliescu/PRODSUP-002.git
 In entered in CircleCI and access my account and set Build Project for PRODSUP-002. After generating the public key I saw that the new Project appears in Circleci but the build is not done.
 2. The problem is caused by missing the master default branch. So I created a master branch identically like trunk and set this master branch as default.
 3. In Cirleci build was started revision 7005c27 - most time consuming phase is $ mvn integration-test - on Running org.apache.commons.csv.LexerTest timed out after 2 hours - I investigated and found out that folder payth was missing so I added in circle.yml  :
